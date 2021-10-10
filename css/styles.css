@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700|Lato:300,400,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+    color: #01949a !important;
+}
+
+#logo {
+  width: 260px;
+  height: 260px;
+}
+
+.menu {
+  float: right;
+  margin-left: 35%;
+  font-size: 18px;  
+}
+
+.cabecalho {
+    position: fixed;
+}
+
+.espaco {
+  margin-top: 90px !important;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #01949a;
+}
+
+.nav-item a:hover {
+  color: #cd0046;
+}
+
+.header-area {
+  background-color: #e9e9dc;
+  margin: -90px;
+  height: 190px;
+  position: relative;
+}
+
+.footer-area {
+  background-color: #e9e9dc;
+  margin: -90px;
+  height: 150px;
+  position: relative; 
+}
+
+.footer-area a {
+  text-decoration: none !important;
+  color: #01949a;  
+}
+
+.footer-area a:hover {
+  color: #cd0046;  
+}
+
+.menu-footer a {
+  margin-left: 100px;
+}
+
+.card {
+  border: #01949a solid 1px !important;
+}
+
+.display-4 {
+  color: #01949a;
+}
+
+.tituloCard {
+  color: #01949a;
+  text-decoration: none !important;
+}
+
+.tituloCard h5:hover {
+  color: #cd0046 !important;  
+}
