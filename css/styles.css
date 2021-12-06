@@ -5,6 +5,11 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
 h2 {
     color: #01949a !important;
 }
