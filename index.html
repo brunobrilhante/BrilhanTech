@@ -14,47 +14,65 @@
     
   </head>
   <body>
-    <header class="header-area">
-      <div class="navbar-area">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="#">
-                  <img id="logo" src="/img/logo.png" alt="Logo" />
-                </a>
-                <div class="menu">
-                  <ul class="nav">
-                    <li class="nav-item">
-                      <a class="nav-link page-scroll" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link page-scroll" href="#perifericos">Produtos</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link page-scroll" href="#contato">Contato</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </div>
+    <header class="header-area">      
+      <div class="container">
+            <nav class="navbar navbar-expand-lg">
+              <a class="navbar-brand" href="#">
+                <img id="logo" src="/img/logo.png" alt="Logo" />
+              </a>
+              <div class="menu">
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a class="nav-link scrollto" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link scrollto" href="#perifericos">Produtos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link scrollto" href="#contato">Contato</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>                
+      </div>      
     </header>
 
-    <section id="home">
-        <div class="container">
-        <div class="jumbotron" style="margin-top: 150px; background-color: #fbfbf5;">        
-            <h1 class="display-4"><strong>Olá, Bruno!</strong></h1>
-            <p class="lead">Seja bem vindo(a) à loja mais Brilhante do mercado. Qualquer dúvida entre em contato conosco através da seção Contato :)</p>
-            <hr class="my-4">
-            <p>Veja os produtos mais recentes e mais tecnológicos do mercado.</p>
-            <p class="lead">
-            <a class="btn btn-info btn-lg page-scroll" href="#perifericos" role="button">Ver mais</a>
-            </p>
+    <section id="" class="espaco carrossel">      
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          
         </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/img/carrossel1.png" class="d-block w-100" alt="Carrossel 1">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/carrossel2.png" class="d-block w-100" alt="Carrossel 2">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/carrossel3.png" class="d-block w-100" alt="Carrossel 3">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/carrossel4.png" class="d-block w-100" alt="Carrossel 4">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/carrossel5.png" class="d-block w-100" alt="Carrossel 5">
+          </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>      
     </section>
 
     <section class="espaco" id="perifericos">
