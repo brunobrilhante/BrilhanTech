@@ -27,6 +27,8 @@ public class BrilhanTechApplication implements CommandLineRunner {
 		Categoria cat2 = new Categoria(null, "Monitor");
 		Categoria cat3 = new Categoria(null, "Mouse");
 		
+		
+		
 		categoriaRepository.saveAll(Arrays.asList(cat1, cat2, cat3));
 		
 	}
